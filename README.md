@@ -25,6 +25,23 @@ It is designed to reflect **real-world data engineering systems**, with clear se
 
 ---
 
+## 💡 What This Platform Enables
+
+While this project focuses on building a scalable real-time data platform, it is designed to support a range of high-impact industrial use cases.
+
+With continuous ingestion via **Apache Kafka**, structured storage in **BigQuery**, and feature engineering through **dbt**, the platform provides a strong foundation for:
+
+* **Predictive maintenance** — identifying early signs of equipment failure from sensor patterns before breakdown occurs
+* **Real-time anomaly detection** — detecting abnormal behavior in streaming data (e.g. sudden spikes, drops, or inconsistencies)
+* **Operational risk monitoring** — deriving risk scores from sensor signals to highlight machines or processes that require attention
+* **ML-powered decision systems** — enabling downstream models to consume clean, feature-rich data for inference and feedback loops
+
+The architecture is intentionally decoupled, allowing machine learning services to operate independently while consuming and writing data back into the platform. This reflects real-world production systems where data engineering and ML systems evolve separately but remain tightly integrated.
+
+In essence, this project is not just a pipeline — it is a foundation for building intelligent, real-time industrial systems.
+
+---
+
 ## 🏗️ Architecture
 
 ```
